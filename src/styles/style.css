@@ -1,0 +1,118 @@
+.button{
+  background-color: #21134A;
+  color: #FFFFFF;
+  text-align: center;
+  size: 10px;
+  cursor: pointer;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.button-view-add{
+  border-color: white;
+  background-color: white;
+  color: black;
+  text-align: center;
+  size: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.card{
+  background-color: #EFEEF7;
+  color: #7467EF;
+  padding-left: 21px;
+  border-radius: 7px;
+}
+
+.button2{
+  color: #0f0f0f;
+  margin-left: 140px;
+  margin-right: 8px;
+}
+
+.image{
+  width:35%;
+  height:65%;
+  margin-left:40%;
+}
+
+.text{
+  display:flex;
+  margin-top: none;
+}
+
+.typo{
+  color: #21134A;
+  font-size: 13px;
+  justify-content: flex-start;
+  display: inline-block;
+  padding-top: 1px;
+}
+
+.dashboard{
+  color: #B0ACBF;
+  padding-left: 30px;
+}
+
+.groups{
+  color: #B0ACBF;
+  padding-left: 30px;
+}
+
+.tests{
+  color: #B0ACBF;
+  padding-left: 30px;
+}
+
+.admins{
+  color: #B0ACBF;
+  padding-left: 30px;
+}
+
+.settings{
+  color: #B0ACBF;
+  padding-left: 30px;
+}
+
+.logout{
+  color: #B0ACBF;
+  padding-left: 30px;
+}
+
+.icon{
+  color: #B0ACBF;
+  padding-left: 10px;
+}
+
+@media  (max-width:600px) {
+  .grid{
+    margin-top : 0px;
+  }
+}
+
+.grid{
+  margin-top:-20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
