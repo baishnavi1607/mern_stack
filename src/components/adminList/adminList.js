@@ -95,10 +95,11 @@ export default class AdminList extends Component {
                                             border: "groove",
                                             color: "#707070",
                                             boxShadow: "none",
-                                            margin: "0px 25px 25px 25px"
+                                            margin: "0px 25px 25px 25px",
+                                            paddingRight: "1%"
                                         }}>
                                         <Grid container >
-                                            <Grid item xs={12} md={6} >
+                                            <Grid item xs={12} md={3} >
                                                 <List>
                                                     <ListItem>
                                                         <ListItemAvatar>
@@ -112,16 +113,18 @@ export default class AdminList extends Component {
                                                     </ListItem>
                                                 </List>
                                             </Grid>
-                                            <Grid container item xs={12} md={4} style={{ marginTop: "30px" }}>
-                                                <FiberManualRecordIcon
-                                                    color="primary"
-                                                />
-                                                <Typography >
-                                                    Joined on 18.02.2020
-                                                </Typography>
+                                            <Grid item xs={12} md={7} style={{ marginTop: "30px" }}>
+                                                <div style={{display: "flex", justifyContent:"center"}}>
+                                                    <FiberManualRecordIcon
+                                                        color="primary"
+                                                    />
+                                                    <Typography >
+                                                        Joined on 18.02.2020
+                                                    </Typography>
+                                                </div>
                                             </Grid>
                                             <Grid item xs={12} md={2} >
-                                                <div style={{ justifyContent: "flex-end" }} >
+                                                <div style={{ display: "flex", justifyContent: "flex-end" }} >
                                                     <div>
                                                         <IconButton style={{ marginTop: "20px", }}>
                                                             <EditIcon />
